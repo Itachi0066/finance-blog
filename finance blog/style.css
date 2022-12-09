@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    pad: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0 !important;
+}
+
+nav {
+    background-color: rgb(38, 38, 148);
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navText {
+    margin-left: 15px;
+}
+
+.blgH {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+
+.flex1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-1 {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    background-color: rgb(128, 1, 1);
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: white;
+    border: 10px solid rgb(255, 255, 255);
+    animation: fadeIn 1s infinite;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.inr {
+    color: rgb(128, 1, 1);
+    margin-bottom: 15px;
+}
+
+br {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button1 {
+    background-color: rgb(204, 15, 15);
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 35px;
+}
+
+.button2 {
+    background-color: rgb(16, 108, 183);
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 35px;
+}
+
+.phase2 {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+footer {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: rgb(38, 38, 148);
+    color: white;
+    text-align: center;
+}
+
+
+
+@keyframes fadeIn {
+    0% {border: 10px solid rgb(255, 255, 255);}
+    100% {border: 10px solid rgb(195, 78, 78);}
+}
+
+
+
+@media screen and (max-width: 750px) {
+    .sec-1 {
+        width: 500px;
+    }
+}
+
+
+@media screen and (max-width: 510px) {
+    .sec-1 {
+        width: 280px;
+    }
+}
